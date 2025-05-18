@@ -90,22 +90,39 @@ CREATE TABLE USER (
 );
 
 
+## 🧪 How to Run Locally
 
-  🧪 How to Run Locally
-  
-- -- Clone this repository:
-       git clone: https://github.com/Anjali22-07/Mentorify.git
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/Anjali22-07/Mentorify.git
 
---- Open the project in NetBeans (recommended since it contains nbproject files).
+2. Open the project in NetBeans (recommended, as it contains nbproject configuration files).
 
----  Set up your local MySQL database and update the DB configuration in JDBC connection file.
+3. Set up your MySQL database:
 
----  Build and deploy the project on Apache Tomcat.
+4. Create the required schema and tables.
 
----  Access the app at:
-    http://localhost:8080/Mentorify/
+5. Import the SQL dump (if provided), or use the SQL schema.
 
-📌 To-Do / Future Enhancements
+6. Update the JDBC configuration:
+
+7. Modify the database connection settings in the appropriate Java file (usually something like ConnectionProvider.java or a config class).
+
+8. Build and deploy the project on Apache Tomcat:
+
+9. Make sure Tomcat is properly configured in NetBeans.
+
+10. Clean and build the project.
+
+11. Run it on your local server.
+
+12. Access the app at:
+    ```
+     http://localhost:8080/Mentorify/
+    
+
+## 📌 To-Do / Future Enhancements
+
 -- Add search functionality for articles
 
 -- Rich text editor for blog writing
@@ -120,3 +137,5 @@ CREATE TABLE USER (
 👩‍💻 Author
 Anjali
 GitHub: Anjali22-07
+
+Feel free to fork the repo, contribute, or open issues for improvements!
